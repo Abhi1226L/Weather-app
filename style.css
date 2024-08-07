@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
+  background-color: rgba(154, 214, 251,0.4);
 }
 
 main{
