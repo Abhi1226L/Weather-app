@@ -23,7 +23,6 @@ main{
   width : 30rem;
   height : min-content;
   background-color: white;
-  border: 1px solid black;
   border-radius: 1.2rem;
   padding: 2.5rem;
 }
@@ -62,4 +61,17 @@ button:active{
   color:white;
   transform: scale(1.01);
   background-color: rgb(172, 247, 183);
+}
+
+
+@media screen and (max-width:425px){
+  main{
+    padding: 2.1rem;
+  }
+}
+
+@media screen and (max-width:360px){
+  main{
+    width: 25rem;
+  }
 }
