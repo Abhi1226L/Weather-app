@@ -77,6 +77,10 @@ button:active {
   }
 }
 
+/* .body-section{
+  display: none;
+} */
+
 .body-header {
   margin-top: 1rem;
   display: flex;
