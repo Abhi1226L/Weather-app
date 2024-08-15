@@ -56,7 +56,7 @@ btn.addEventListener("click", function () {
     error.style.display = 'none';
     let emptyBox = document.createElement("p");
     emptyBox.classList.add("empty-box");
-    emptyBox.innerHTML = "Please,Enter a city name"
+    emptyBox.innerHTML = "Please enter a city name"
     empty.append(emptyBox);
   } else {
     checkWeather(input.value);
