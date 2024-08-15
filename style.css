@@ -77,13 +77,13 @@ button:active {
   }
 }
 
-/* .body-section{
+.body-header,
+.body-footer {
   display: none;
-} */
+}
 
 .body-header {
   margin-top: 1rem;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -93,7 +93,7 @@ img {
   height: 21rem;
 }
 
-.weather-box{
+.weather-box {
   width: 100%;
   margin-top: 2rem;
   display: flex;
@@ -102,45 +102,76 @@ img {
   align-items: center;
 }
 
-.temperature{
+.temperature {
   font-size: 4.5rem;
   position: relative;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 700;
 }
 
-.temperature sup{
+.temperature sup {
   font-size: 2.4rem;
   position: absolute;
   font-weight: 400;
 }
 
-.temp-info{
+.city-name {
   font-size: 2.3rem;
   font-weight: 400;
 }
 
-.body-footer{
+.body-footer {
   margin: 4rem 0.4rem 2rem 2rem;
-  display: flex;
   justify-content: space-between;
 }
 
-.body-footer i{
+.body-footer i {
   font-size: 3rem;
 }
 
-.humidity,.wind{
+.humidity,
+.wind {
   display: flex;
 }
 
 
-#text{
+#text {
   margin-left: 0.7rem;
   font-size: 1.5rem;
 }
 
-#humidity-count,#wind-count{
+#humidity-count,
+#wind-count {
   font-weight: 600;
 }
 
+.error-image {
+  margin-top: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#error-img {
+  height: 22rem;
+  width: 25rem;
+}
+
+#error-text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.empty {
+  display: none;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.empty-box {
+  height: 3rem;
+}

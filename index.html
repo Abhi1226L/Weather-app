@@ -26,33 +26,36 @@
         />
         <button><i class="fa-solid fa-magnifying-glass"></i></button>
       </div>
-      <div class="body-section">
-        <div class="body-header">
-          <div class="weather-image">
-            <img src="/asset/cloud.png" alt="cloudy" />
-          </div>
-          <div class="weather-box">
-            <p class ="temperature">0 <sup>°C</sup></p>
-            <p class="temp-info">Light Rain</p>
+      <div class="error-image">
+        <p id="error-text">Sorry,Invalid city name!</p>
+        <img id="error-img" src="404.png" alt="error" />
+      </div>
+      <div class="body-header">
+        <div class="weather-image">
+          <img id="weather-img" src="cloud.png" alt="cloudy" />
+        </div>
+        <div class="weather-box">
+          <p class="temperature">0 <sup>°C</sup></p>
+          <p class="city-name">Mumbai</p>
+        </div>
+      </div>
+      <div class="body-footer">
+        <div class="humidity">
+          <i class="fa-solid fa-droplet"></i>
+          <div id="text">
+            <p id="humidity-count">45%</p>
+            <p id="humidity-text">Humidity</p>
           </div>
         </div>
-        <div class="body-footer">
-          <div class="humidity">
-            <i class="fa-solid fa-droplet"></i>
-            <div id="text">
-              <p id="humidity-count">45%</p>
-              <p id="humidity-text">Humidity</p>
-            </div>
-          </div>
-          <div class="wind">
-            <i class="fa-solid fa-wind"></i>
-            <div id="text">
-              <p id="wind-count">12km/hr</p>
-              <p id="wind-text">Wind Speed</p>
-            </div>
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div id="text">
+            <p id="wind-count">12 km/hr</p>
+            <p id="wind-text">Wind Speed</p>
           </div>
         </div>
       </div>
+      <div class="empty"></div>
     </main>
     <script src="script.js"></script>
   </body>
