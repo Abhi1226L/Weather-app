@@ -24,8 +24,8 @@ body {
   background-color: rgb(154, 214, 251);
 }
 
-.heading{
-  margin-bottom: 1rem; 
+.heading {
+  margin-bottom: 1rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -84,6 +84,10 @@ button:active {
 @media screen and (max-width:360px) {
   main {
     width: 25rem;
+  }
+
+  .error-text {
+    font-size: 1rem;
   }
 }
 
