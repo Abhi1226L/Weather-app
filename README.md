@@ -18,7 +18,7 @@ The Weather App is a simple web application that allows users to check the curre
 
 ## Demo
 
-![](quote-generator.png)
+![](Weather-app.png)
 
 ## Links
 - URL : [Live Project](https://abhi1226l.github.io/Weather-app/)
